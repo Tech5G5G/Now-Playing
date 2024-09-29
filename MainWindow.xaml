@@ -272,7 +272,7 @@ SelectedIndex="{Binding Source={StaticResource Settings}, Path=Default.StartupMo
                     Background="Transparent"
                     BorderThickness="0,1,0,1"
                     CornerRadius="0"
-                    NavigateUri="https://www.github.com/">
+                    NavigateUri="https://github.com/Tech5G5G/Now-Playing">
                         <Grid>
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="*" />
