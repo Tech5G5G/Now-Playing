@@ -338,7 +338,7 @@ namespace Now_Playing
 
                                 this.Background = new VisualBrush(grid) { Stretch = Stretch.UniformToFill };
 
-                                this.Background.Transform = new ScaleTransform() { ScaleX = 2, ScaleY = 2, CenterX = 200 };
+                                this.Background.Transform = new ScaleTransform() { ScaleX = 2, ScaleY = 2, CenterX = this.Width / 2, CenterY = this.Height / 2 };
                             });
                         }
                     }
