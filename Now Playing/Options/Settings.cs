@@ -1,4 +1,4 @@
-﻿namespace Now_Playing.Properties {
+﻿namespace Now_Playing.Options {
     
     
     // This class allows you to handle specific events on the settings class:
