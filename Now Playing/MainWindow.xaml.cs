@@ -24,10 +24,10 @@ namespace Now_Playing
 
             Closed += (s, e) =>
             {
-                SettingValues.ForceSave();
-
                 if (SettingValues.PauseWhenAppClosedEnabled)
                     MediaHelper.TogglePlayback();
+
+                SettingValues.ForceSave();
             };
 
             if (SettingValues.AutoShowLyricsEnabled)

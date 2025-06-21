@@ -2,7 +2,7 @@
 
 public static class SettingValues
 {
-    private readonly static Settings settings = new();
+    private readonly static Settings settings = Settings.Default;
 
     public static bool PauseWhenAppClosedEnabled
     {
@@ -70,5 +70,6 @@ public static class SettingValues
 public enum StartupMode
 {
     Fullscreen,
-    Miniplayer
+    Miniplayer,
+    Windowed
 }
